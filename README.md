@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📡 PhishMasterX - Advanced Phishing Toolkit
 
 🔓 **Created by cyberwolf | 💻 Kali Linux Toolkit**
@@ -51,3 +52,4 @@ python3 main.py
    python3 dashboard/livemonitor.py run karo
    Browser mein http://localhost:8000 open karo
    Sab phishing logs yahin dikhenge
+

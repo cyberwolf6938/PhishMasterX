@@ -1,0 +1,31 @@
+PhishMasterX/
+├── main.py                  ➜ CLI menu launcher
+├── run_gui.sh               ➜ GUI launcher (Linux)
+├── gui/
+│   └── main_gui.py          ➜ GUI interface (Tkinter-based)
+├── core/
+│   ├── cloner.py            ➜ Website cloner + credential logger
+│   └── logger.py            ➜ All events log to JSON
+├── dashboard/
+│   └── app.py               ➜ LiveMonitorX: Flask-based real-time log dashboard
+├── qrphish/
+│   ├── qr_module.py         ➜ QR code phishing generator
+│   └── redirect_server.py   ➜ Flask server to log QR visit
+├── email/
+│   ├── smtp_spoofer.py      ➜ Fake email sender (SMTP spoof)
+│   └── click_tracker.py     ➜ Tracks clicks on phishing links
+├── captive/
+│   ├── server.py            ➜ Wi-Fi fake login page server
+│   └── templates/login.html ➜ HTML form to capture creds
+├── voicebot/
+│   ├── generate_voice_prompt.py ➜ AI voice generator (gTTS)
+│   └── vishing_main.py         ➜ Voice phishing bot (play/trigger audio)
+├── scripts/
+│   ├── wifi_setup.sh        ➜ Automates wlan0 AP setup (hostapd + dnsmasq)
+│   ├── hostapd.conf         ➜ Fake AP config
+│   └── dnsmasq.conf         ➜ DHCP + DNS config
+├── data/
+│   ├── phish_log.json       ➜ All logged activity stored here
+│   └── qrcodes/             ➜ Generated QR images
+├── requirements.txt         ➜ Python libraries
+└── venv/                    ➜ Python virtual environment

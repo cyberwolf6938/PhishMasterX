@@ -1,0 +1,110 @@
+[
+  {
+    "module": "WiFi Captive Portal",
+    "ip": "127.0.0.1",
+    "username": "123456789@gmail.com",
+    "password": "qwerty",
+    "timestamp": "2025-06-25 18:51:25.982963"
+  },
+  {
+    "module": "WiFi Captive Portal",
+    "ip": "127.0.0.1",
+    "username": "1234567890@gmail.com",
+    "password": "qwerty",
+    "timestamp": "2025-06-25 18:55:54.502917"
+  },
+  {
+    "module": "WiFi Captive Portal",
+    "ip": "192.168.1.10",
+    "username": "1234567890@gmail.com",
+    "password": "qwerty",
+    "timestamp": "2025-06-25 18:57:12.874482"
+  },
+  {
+    "module": "EmailPhisher++",
+    "event": "Victim clicked phishing link",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+    "timestamp": "2025-06-25 19:30:21.920828"
+  },
+  {
+    "module": "Website Cloner",
+    "ip": "192.168.1.10",
+    "email": "testuser",
+    "password": "testuser",
+    "event": "User submitted credentials",
+    "timestamp": "2025-06-26 15:55:16.073591"
+  },
+  {
+    "module": "Facebook Clone",
+    "ip": "192.168.1.10",
+    "email": "test@gmail.com",
+    "password": "1234567890",
+    "event": "Victim submitted credentials",
+    "timestamp": "2025-06-26 16:53:04.807142"
+  },
+  {
+    "module": "Instagram Clone",
+    "ip": "192.168.1.10",
+    "email": "qwerty@gmail.com",
+    "password": "11223344",
+    "event": "Victim submitted credentials",
+    "timestamp": "2025-06-26 16:58:36.297896"
+  },
+  {
+    "module": "Instagram Clone",
+    "ip": "127.0.0.1",
+    "email": "user",
+    "password": "user",
+    "event": "Victim submitted credentials",
+    "timestamp": "2025-06-26 20:16:23.932710"
+  },
+  {
+    "module": "Facebook Clone",
+    "ip": "127.0.0.1",
+    "email": "admin",
+    "password": "admin",
+    "event": "Victim submitted credentials",
+    "timestamp": "2025-06-26 20:17:07.312490"
+  },
+  {
+    "module": "Gmail Clone",
+    "ip": "192.168.1.10",
+    "email": "test",
+    "password": "test",
+    "event": "Victim submitted credentials",
+    "timestamp": "2025-06-26 20:33:08.417905"
+  },
+  {
+    "module": "Gmail Clone",
+    "ip": "127.0.0.1",
+    "email": "test",
+    "password": "1234",
+    "event": "Victim submitted credentials",
+    "timestamp": "2025-06-26 20:34:30.500160"
+  },
+  {
+    "module": "QR-Phish",
+    "event": "QR code generated",
+    "target_url": "https://5129-103-151-47-218.ngrok-free.app",
+    "timestamp": "2025-06-26 21:08:56.871610"
+  },
+  {
+    "module": "HTMLAnalyzer",
+    "file": "test_phish.html",
+    "issues": [
+      "Password field detected.",
+      "Suspicious domain found.",
+      "External JS scripts found.",
+      "Hidden fields found.",
+      "Form action going to: http://malicious.xyz/steal-creds"
+    ],
+    "timestamp": "2025-06-27 15:48:47"
+  },
+  {
+    "module": "QR-Phish",
+    "event": "QR code generated",
+    "target_url": "https://www.youtube.com/",
+    "timestamp": "2025-06-28 17:53:05"
+  }
+]

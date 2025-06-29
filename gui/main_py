@@ -1,0 +1,7 @@
+modules = {
+    "QR Phish": "/home/cyberwolf/PhishMasterX/qrphish/redirect_server.py",
+    "Email Phisher++": "/home/cyberwolf/PhishMasterX/email/send_email.py",
+    "Click Tracker": "/home/cyberwolf/PhishMasterX/email/click_tracker.py",
+    "WiFi Captive Portal": "/home/cyberwolf/PhishMasterX/captive/server.py",
+    "Live Dashboard": "/home/cyberwolf/PhishMasterX/dashboard/app.py"
+}

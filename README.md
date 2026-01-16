@@ -35,7 +35,7 @@ PhishMasterX/
 └── README.md
 
 ## Testing
-(Click this to see PhishMasterX testing material)[https://drive.google.com/file/d/1iyuHlRsJI5gIEZ801_LhqyvqGr7XCh7n/view?usp=sharing]
+[Click this to see PhishMasterX testing material](https://drive.google.com/file/d/1iyuHlRsJI5gIEZ801_LhqyvqGr7XCh7n/view?usp=sharing)
 
 
 ---

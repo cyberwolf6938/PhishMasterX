@@ -37,7 +37,8 @@ PhishMasterX/
 ## Testing
 [Click this to see PhishMasterX testing material](https://drive.google.com/file/d/187wlCK2UQQrEu1FLm4cl8C0GZ08Ir3B7/view?usp=sharing)
 
-
+Published my article on medium about PhishMasterX 
+[medium article](https://medium.com/@falolopopololopopo/phishmasterx-building-an-educational-framework-to-understand-modern-phishing-attacks-6c787001b26a)
 ---
 
 ## ⚙️ Installation

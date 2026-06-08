@@ -1,0 +1,21 @@
+{
+  "name": "phishmasterx",
+  "version": "1.0.0",
+  "description": "PhishMasterX - Advanced Phishing Detection & Analysis Tool",
+  "private": true,
+  "scripts": {
+    "install:all": "cd phish-master-x && npm install",
+    "dev": "cd phish-master-x && npm run dev",
+    "build": "cd phish-master-x && npm run build",
+    "preview": "cd phish-master-x && npm run preview",
+    "lint": "cd phish-master-x && npm run lint"
+  },
+  "keywords": [
+    "phishing",
+    "detection",
+    "security",
+    "analysis"
+  ],
+  "author": "",
+  "license": "MIT"
+}

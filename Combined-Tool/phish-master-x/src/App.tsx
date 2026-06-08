@@ -265,7 +265,7 @@ const analyzeUrl = async (targetUrl: string = singleUrl) => {
   if (!targetUrl) return;
   setLoading(true);
   try {
-    const response = await fetch("http://localhost:8000/api/analyze-url", {
+    const response = await fetch("https://phishmasterx-backend.onrender.com/api/analyze-url", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ url: targetUrl }),
@@ -295,7 +295,7 @@ const traceDomain = async () => {
   if (!inputTarget) return;
   setLoading(true);
   try {
-    const response = await fetch("http://localhost:8000/api/analyze-domain", {
+    const response = await fetch("https://phishmasterx-backend.onrender.com/api/analyze-domain", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ domain: inputTarget }),
@@ -315,7 +315,7 @@ const analyzeWithML = async () => {
   if (!mlPayload) return;
   setLoading(true);
   try {
-    const response = await fetch("http://localhost:8000/api/analyze-ml", {
+    const response = await fetch("https://phishmasterx-backend.onrender.com/api/analyze-ml", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text: mlPayload }),

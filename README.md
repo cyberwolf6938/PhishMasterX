@@ -4,7 +4,7 @@
 # 📡 PhishMasterX - Advanced Phishing Toolkit
 
 🔓 **Created by cyberwolf | 💻 Kali Linux Toolkit**
-
+</div>
 ---
 
 ## 🚀 Features
@@ -46,8 +46,6 @@ Published my article on medium about PhishMasterX
 ---
 
 ## ⚙️ Installation
-
-```bash
 git clone https://github.com/YOUR_USERNAME/PhishMasterX.git
 cd PhishMasterX
 python3 -m venv venv
@@ -60,13 +58,13 @@ python3 main.py
    python3 dashboard/livemonitor.py run karo
    Browser mein http://localhost:8000 open karo
    Sab phishing logs yahin dikhenge
-<div align="center">
 
+<div align="center">
 # 🛡️ PhishMasterX GUI
 ### The Ultimate Security Testing & Educational Interface
 
 [![GitHub stars](https://img.shields.io/github/stars/cyberwolf6938/PhishMasterX?style=for-the-badge)](https://github.com/cyberwolf6938/PhishMasterX/stargazers)
-[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-brightgreen?style=for-the-badge)](YOUR_VERCEL_LINK_HERE)
+[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-brightgreen?style=for-the-badge)](https://phish-master-x.vercel.app/)
 
 *PhishMasterX GUI is a modern, web-based control panel designed for ethical security assessments and educational demonstration.*
 
@@ -104,12 +102,11 @@ Access the web-based GUI directly through your browser:
 ## 📋 Local Installation
 Follow these steps to run the project on your local machine:
 
-```bash
 # 1. Clone the repository
 git clone [https://github.com/cyberwolf6938/PhishMasterX.git](https://github.com/cyberwolf6938/PhishMasterX.git)
 
 # 2. Navigate to the directory
-cd PhishMasterX/Combined-tool/phish-master-x
+cd PhishMasterX/Combined-Tool/phish-master-x
 
 # 3. Install dependencies
 npm install

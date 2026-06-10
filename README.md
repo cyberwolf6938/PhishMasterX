@@ -105,14 +105,14 @@ Access the web-based GUI directly through your browser:
 ## 📋 Local Installation
 Follow these steps to run the project on your local machine:
 
-# 1. Clone the repository
+## 1. Clone the repository
 git clone [https://github.com/cyberwolf6938/PhishMasterX.git](https://github.com/cyberwolf6938/PhishMasterX.git)
 
-# 2. Navigate to the directory
+## 2. Navigate to the directory
 cd PhishMasterX/Combined-Tool/phish-master-x
 
-# 3. Install dependencies
+## 3. Install dependencies
 npm install
 
-# 4. Run the development server
+## 4. Run the development server
 npm run dev

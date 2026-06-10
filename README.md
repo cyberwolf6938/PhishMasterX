@@ -53,11 +53,11 @@ Published my article on medium about PhishMasterX
 - pip install -r requirements.txt
 - python3 main.py
  
-🟢 LiveMonitorX Setup:
-✅ LiveMonitorX se real-time logs dekho:
-✅ python3 dashboard/livemonitor.py run karo
-✅ Browser mein http://localhost:8000 open karo
-✅ Sab phishing logs yahin dikhenge
+## 🟢 LiveMonitorX Setup:
+- LiveMonitorX se real-time logs dekho:
+- python3 dashboard/livemonitor.py run karo
+- Browser mein http://localhost:8000 open karo
+- Sab phishing logs yahin dikhenge
 
 ---
 

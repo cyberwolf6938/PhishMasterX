@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🛡️ PhishMasterX CLI
-# 📡 PhishMasterX - Advanced Phishing Toolkit
 
+# 📡 PhishMasterX - Advanced Phishing Toolkit
+# 🛡️ PhishMasterX CLI & GUI
 🔓 **Created by cyberwolf | 💻 Kali Linux Toolkit**
 </div>
 ---
@@ -46,21 +46,24 @@ Published my article on medium about PhishMasterX
 ---
 
 ## ⚙️ Installation
-git clone https://github.com/YOUR_USERNAME/PhishMasterX.git
-cd PhishMasterX
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python3 main.py
+- git clone https://github.com/YOUR_USERNAME/PhishMasterX.git
+- cd PhishMasterX
+- python3 -m venv venv
+- source venv/bin/activate
+- pip install -r requirements.txt
+- python3 main.py
  
 🟢 LiveMonitorX Setup:
 ✅ LiveMonitorX se real-time logs dekho:
-   python3 dashboard/livemonitor.py run karo
-   Browser mein http://localhost:8000 open karo
-   Sab phishing logs yahin dikhenge
+✅ python3 dashboard/livemonitor.py run karo
+✅ Browser mein http://localhost:8000 open karo
+✅ Sab phishing logs yahin dikhenge
+
+---
 
 <div align="center">
-# 🛡️ PhishMasterX GUI
+
+ # 🛡️ PhishMasterX GUI 
 ### The Ultimate Security Testing & Educational Interface
 
 [![GitHub stars](https://img.shields.io/github/stars/cyberwolf6938/PhishMasterX?style=for-the-badge)](https://github.com/cyberwolf6938/PhishMasterX/stargazers)

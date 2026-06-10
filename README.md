@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+<div align="center">
+
+# 🛡️ PhishMasterX CLI
 # 📡 PhishMasterX - Advanced Phishing Toolkit
 
 🔓 **Created by cyberwolf | 💻 Kali Linux Toolkit**
@@ -58,3 +60,59 @@ python3 main.py
    python3 dashboard/livemonitor.py run karo
    Browser mein http://localhost:8000 open karo
    Sab phishing logs yahin dikhenge
+<div align="center">
+
+# 🛡️ PhishMasterX GUI
+### The Ultimate Security Testing & Educational Interface
+
+[![GitHub stars](https://img.shields.io/github/stars/cyberwolf6938/PhishMasterX?style=for-the-badge)](https://github.com/cyberwolf6938/PhishMasterX/stargazers)
+[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-brightgreen?style=for-the-badge)](YOUR_VERCEL_LINK_HERE)
+
+*PhishMasterX GUI is a modern, web-based control panel designed for ethical security assessments and educational demonstration.*
+
+</div>
+
+---
+
+## 🎯 Core Capabilities
+PhishMasterX GUI empowers security researchers with a centralized dashboard to perform and monitor the following:
+
+- **🔗 URL Management:** Analyze, track, and manage target URLs for security assessments.
+- **🌐 Domain Intelligence:** Perform domain reconnaissance and mapping with ease.
+- **📧 Email Simulation:** Manage and monitor email-based security vectors safely.
+- **🤖 Machine Learning (ML) Engine:** Leverage AI-driven patterns to identify potential vulnerabilities.
+- **👤 User Management:** Control access, manage roles, and monitor team activities.
+- **📊 Reports & Analytics:** Generate detailed insight reports and visualize test performance with real-time analytics.
+
+---
+
+## 🛠 Tech Stack
+| Component | Technology |
+| :--- | :--- |
+| **Frontend** | React 19, Tailwind CSS v4 |
+| **Build Tool** | Vite 6 |
+| **Deployment** | Vercel |
+
+---
+
+## 🚀 Live Demo
+Access the web-based GUI directly through your browser:
+[**Launch PhishMasterX GUI**](https://phish-master-x.vercel.app/)
+
+---
+
+## 📋 Local Installation
+Follow these steps to run the project on your local machine:
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/cyberwolf6938/PhishMasterX.git](https://github.com/cyberwolf6938/PhishMasterX.git)
+
+# 2. Navigate to the directory
+cd PhishMasterX/Combined-tool/phish-master-x
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev

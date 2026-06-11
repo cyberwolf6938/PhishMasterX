@@ -55,7 +55,7 @@ Published my article on medium about PhishMasterX
  
 ## 🟢 LiveMonitorX Setup:
 - LiveMonitorX se real-time logs dekho:
-- python3 dashboard/livemonitor.py run karo
+- python3 dashboard/app.py run karo
 - Browser mein http://localhost:8000 open karo
 - Sab phishing logs yahin dikhenge
 
